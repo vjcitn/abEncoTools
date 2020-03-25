@@ -1,2 +1,2 @@
-# abEncoTools
-Support for edx Bioconductor-ENCODE modules
+# advbEncode
+advanced bioconductor edx: ENCODE modules

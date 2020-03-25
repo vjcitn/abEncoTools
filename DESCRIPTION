@@ -1,0 +1,19 @@
+Package: abEncoTools
+Title: edx material for advanced bioconductor: ENCODE modules; open version, no vignettes
+Description: Defines edx material for advanced bioconductor: ENCODE modules.
+Version: 0.0.5
+Author: Vince Carey
+Suggests: knitr, rtracklayer, DT, tibble, BiocStyle, lubridate, ensembldb,  
+        EnsDb.Hsapiens.v79, AnnotationHub,  
+        ontoProc, dplyr, lava, GenomeInfoDb
+Depends: R (>= 3.6.0), Rcpp, BiocGenerics, GenomicFiles, GenomicRanges, 
+	SummarizedExperiment, nlme
+Imports: BiocManager
+Maintainer: VJ Carey <stvjc@channing.harvard.edu>
+License: Artistic-2.0
+LazyLoad: yes
+LazyData: yes
+biocViews: variants
+VignetteBuilder: knitr
+RoxygenNote: 7.1.0
+Encoding: UTF-8
