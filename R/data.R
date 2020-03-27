@@ -28,3 +28,12 @@
 #' @docType data
 #' @format GRanges
 "NRpoly"
+
+#' SummarizedExperiment with CRISPR-interrupted RNA-seq studies from ENCODE
+#' @docType data
+#' @note Only features with gene level annotation (not necessarily `protein_coding`) in EnsDb.Hsapiens.v79
+#' are retained -- so spikeins, for example, are dropped though available in the cloud-resident tsv from
+#' ENCODE.
+#' @format SummarizedExperiment
+"criSE"
+
