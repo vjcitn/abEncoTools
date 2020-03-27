@@ -1,7 +1,7 @@
 Package: abEncoTools
 Title: edx material for advanced bioconductor: ENCODE modules; open version, no vignettes
 Description: Defines edx material for advanced bioconductor: ENCODE modules.
-Version: 0.0.5
+Version: 0.0.6
 Author: Vince Carey
 Suggests: knitr, rtracklayer, DT, tibble, BiocStyle, lubridate, ensembldb,  
         EnsDb.Hsapiens.v79, AnnotationHub,  
