@@ -37,3 +37,10 @@
 #' @format SummarizedExperiment
 "criSE"
 
+#' SummarizedExperiment with CRISPR-interrupted RNA-seq studies from ENCODE -- expected counts metric
+#' @docType data
+#' @note Only features with gene level annotation (not necessarily `protein_coding`) in EnsDb.Hsapiens.v79
+#' are retained -- so spikeins, for example, are dropped though available in the cloud-resident tsv from
+#' ENCODE.  The 'expected counts' metric is used for quantification.
+#' @format SummarizedExperiment
+"criEC"
